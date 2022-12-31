@@ -121,5 +121,5 @@ The ``findProvider`` method in the ``PaymentService`` class returns the object o
 As we defined our interfaces we are sure that both of them has at least the ``Pay`` method, So in the ``sendToProvider`` method we call the ``pay`` method on the object that ``sendToProvider`` returns to us and we pass the ``$dataReqeust`` as well, Ultimately the user will be redirected to payment page. <br>
 
 ### What happens when the user come back from payment page?
-In this case users get back to ``verify`` method from payment page to the route that you given as ``callback`` route. Let's find out ``verify`` <br>
+In this case users get back to ``verify`` method from payment page to the route that you given as ``callback`` route. <br>
 
